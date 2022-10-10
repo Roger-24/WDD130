@@ -1,0 +1,77 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    /*we gave it two values. 
+    the first says to set the top and bottom margins to 0 and the second says
+    to set the left and right margins to auto: meaning to split any margin available
+    the left and right*/
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color:#55828B; 
+}
+header {
+    background-color:#364958;
+}
+nav a:hover {
+    background-color:#3B6064;
+    color:white ;
+}
+
+ #hero-msg h1, #hero-msg h4, .button-box
+main section{
+    text-align: center;
+}
+nav a{
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+/**/
+
+h4{
+    background-color:#87BBA2;
+    color: black;
+}
+   
+.book, .join {
+    background-color:#C9E4CA;
+    color: black;
+    text-align: center;
+} 
+.book:hover, .join:hover{
+    background-color:#364958;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* step 13 foreground colors
+note: please make sure css is properly linked to index.html*/
+
+.msg h2{
+    background-color:#3B6064;
+    color: white;
+}
+.home-title, footer a,.msg p,footer, nav a:hover{
+    background-color:#d9c2a3;
+    color: #000;
+    text-decoration: none; }
+#hero{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo, .icon {
+    width: 80px;
+}
+
+a:hover footer p {
+    text-decoration: underline;
+    font-size: 1.2em;
+}
