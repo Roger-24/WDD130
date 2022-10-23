@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    text-align: center;
     /*we gave it two values. 
     the first says to set the top and bottom margins to 0 and the second says
     to set the left and right margins to auto: meaning to split any margin available
@@ -19,33 +23,36 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .home-title {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 2em;
+    font-size: 5rem;
     margin-top: 10px;
+
 }
       
 h2 {
-    margin: 0;
+    margin: 10px;
 }
 header {
     background-color:#364958;
+    
+    text-align: left;
+} 
+
+header img {
+    max-height: 150px;
+    margin-left: 1 rem;
 }
-/*.home title{
-    
-}*/
-/*nav a:hover {
-    background-color:#3B6064;
-    color:white ;
-    
-}*/
 
   #hero-msg h4, main section{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.card img {
-    border: 10px solid #d9c2a3;
+
+.card-img {
+    border: 1rem solid #364958;
+    border-radius: 3px;
 }
 main section img {
     box-sizing: border-box;
@@ -59,14 +66,21 @@ nav a {
     text-decoration: none;
     color: #fcfbfb;
     text-align: center;
-    padding: 45px;
+    padding: 20px;
+    margin-left: 2.5rem;
+    font-size: 2rem;
 }
 /**/
+h1, h2, h3, h4{
+    padding: 1rem;
+}
 
 h4{
-    background-color:#87BBA2;
+    
     color: black;
+    font-size: 2rem;
 }
+   
    
  .join,  .button-box, #hero-box {
     background-color:#C9E4CA;
@@ -74,6 +88,7 @@ h4{
     text-align: center;
 
 } 
+
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
 }
@@ -97,8 +112,7 @@ h4{
 note: please make sure css is properly linked to index.html*/
 
 .msg h2, h2{
-    background-color:#3B6064;
-    color: white;
+    color: black;
     line-height: 1.5em;
 }
  footer a,.msg p,footer, nav a:hover{
