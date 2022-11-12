@@ -3,7 +3,7 @@
 
 
 #content {
-    max-width: 1600px;
+    max-width: 1045px;
     margin: 0 auto;
     text-align: center;
     /*we gave it two values. 
@@ -57,11 +57,16 @@ nav {
    
 nav a {
     text-decoration: none;
-    color: #fcfbfb;
     text-align: center;
-    padding: 20px;
-    margin-left: 2.5rem;
-    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 35px;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+nav a:hover{
+    background-color: whitesmoke;
+    color: #000;
 }
 
 body {
@@ -143,7 +148,7 @@ h4{
 }
    
    
-  .button-box, #hero-box {
+   #hero-box {
     background-color:#C9E4CA;
     color: black;
     text-align: center;} 
@@ -187,16 +192,20 @@ h4{
 /* step 13 foreground colors
 note: please make sure css is properly linked to index.html*/
 
-.msg  {
+.msg   {
     color: black;
     line-height: 1.5em;
     background-color: #364958;
     line-height: 1.5em;
-    border:solid #1e204f;
+   
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg p {
+    background-color: #364958;
 }
 .join {
     background-color: #364958;
@@ -208,7 +217,7 @@ note: please make sure css is properly linked to index.html*/
     border: solid #1e204f;
 }
 
- footer a,footer, nav a:hover{
+ footer a, footer{
     background-color:#364958;
     color: #000;
     text-decoration: none;
@@ -248,6 +257,7 @@ note: please make sure css is properly linked to index.html*/
 a:hover footer p {
     text-decoration: underline;
     font-size: 1.2em;
+    background-color: #C9E4CA;
 }
 
 #hero-msg {
@@ -255,3 +265,7 @@ a:hover footer p {
     grid-row: 1/2;
     margin-top: 100px;
 }
+
+
+
+
