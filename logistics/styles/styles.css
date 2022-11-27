@@ -1,6 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Rock+Salt&display=swap');
 
-#logo_logistics {    
-    padding-bottom: 10px;
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+    
+    /*we gave it two values. 
+    the first says to set the top and bottom margins to 0 and the second says
+    to set the left and right margins to auto: meaning to split any margin available
+    the left and right*/
+}
+
+body{
+    background-color: #396E94;
+}
+.logistics{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+   
+}
+ 
+.titulo{
+    font-family: 'Rock salt', Arial, Helvetica, sans-serif;
+    text-align: auto;
+    padding-left: 30px;
+}
+.block1{
+    grid-column: 1/2;
+    grid-row:1/2;
+    padding:20px ;
+    font-family: 'PT sans Caption', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+.block2{
+    grid-column:2/3 ;
+    grid-row:2/3;
+    padding:20px;
+    font-family: 'PT sans Caption', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
 }
 
 nav {
@@ -12,20 +49,35 @@ nav a {
     text-decoration: none;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 35px;
     font-size: 1.5em;
     border-radius: 5px;
 }
 
 header {
-    background-color:#A43312;
+    background-color:#E7C24F;
     display: grid;
     grid-template-columns: 110px auto;
     text-align: left
+
 }
  
 nav a:hover{
     background-color: whitesmoke;
     color: #000;
 }
+
+footer { 
+    background-color: #E7C24F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 50px;
+    margin-top: 200px;
+    font-size:x-large;
+ }  
+
+ .industrial, .truck{
+    border: solid black;
+ }
