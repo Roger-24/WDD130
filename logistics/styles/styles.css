@@ -58,8 +58,8 @@ nav a{
 header {
     background-color:#E7C24F;
     display: grid;
-    grid-template-columns: 110px auto;
-    text-align: left
+    grid-template-columns: 150px auto;
+    text-align: left;
 
 }
  
