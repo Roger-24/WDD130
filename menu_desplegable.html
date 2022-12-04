@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        header{
+            margin: auto;
+            width: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        li{
+            list-style: none;
+
+        }
+
+        .nav li a{
+            background-color:#381D2A;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        .nav li a:hover {
+            background-color:#E7C24F;
+            color: black;
+        }
+        .nav > li{
+            float:left;
+        }
+        .nav li ul{
+            display: none;
+            position: absolute;
+            min-width: 150px;
+        }
+        .nav li:hover > ul{
+            display: block;
+        }
+        .nav li ul li{
+            position: relative;
+        }
+        .nav li ul li ul{
+            right: 150px;
+            top: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul class="nav">
+            <li><a href="">inicio</a></li>
+
+            <li><a href="">Servicios</a>
+              <ul class="dropdown-content">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                 <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 3</a>
+                  <ul class="">
+                    <li><a href="#">submenu 1</a></li>
+                    <li><a href="#">Submenu 2</a></li>
+                    <li><a href="#">Submenu 3</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="">Acerca de</a></li>
+            <li><a href="">Contacto</a></li>
+        </ul>
+
+    
+    </div>
+</body>
+</html>
